@@ -13,6 +13,7 @@ import uuid
 
 from u2net import U2net
 from gca import Gca
+from fba import Fba
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--u2', type=str, default='./saved_models/u2net/u2net.pth')
